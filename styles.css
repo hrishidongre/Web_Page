@@ -72,21 +72,23 @@ body{
 }
 .discover{
     font-family: "BIZ UDPMincho", serif;
-    font-size: 120px;
+    font-size: 127px;
+    width: 95vw;
     font-weight: 400;
     line-height: 120px;
     letter-spacing: -0.02em;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-left: 2vw;
 
 }
 .image_1{
-    width: 1344px;
-    height: 672px;
+    width: 1394px;
+    height: 722px;
     gap: 0px;
     border-radius: 22px;
-    margin-left: 6vw;
+    margin-left: 3.6vw;
     margin-top: 3vw;
     opacity: 0px;
 
