@@ -67,6 +67,8 @@ body{
     padding: 48px 0;
     display: flex;
     justify-content: center;
+    margin-top: 8vw;
+    flex-direction: column;
 }
 .discover{
     font-family: "BIZ UDPMincho", serif;
@@ -79,6 +81,13 @@ body{
     text-decoration-skip-ink: none;
 
 }
-.main1{
-    margin-top: 8vw;
+.image_1{
+    width: 1344px;
+    height: 672px;
+    gap: 0px;
+    border-radius: 22px;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    opacity: 0px;
+
 }
