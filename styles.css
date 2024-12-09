@@ -64,7 +64,7 @@ body{
 
 }
 .main1{
-    padding: 48px 0;
+    padding: 96px 0;
     display: flex;
     justify-content: center;
     margin-top: 8vw;
@@ -91,5 +91,38 @@ body{
     margin-left: 3.6vw;
     margin-top: 3vw;
     opacity: 0px;
+}
+#row1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    overflow: auto;
+    gap:8px;
+    margin-left:3.5vw;
+}
+#row1 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 
+}
+#row1 h4{
+    font-family: Gothic A1;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+#row1 p{
+    font-family: Gothic A1;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:rgba(0, 0, 0, 0.6); 
 }
