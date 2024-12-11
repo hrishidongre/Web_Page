@@ -92,14 +92,14 @@ body{
     margin-top: 3vw;
     opacity: 0px;
 }
-#row1,#row2{
+#row1,#row2,#row3{
     display: grid;
     grid-template-columns: repeat(3,auto);
     overflow: auto;
     gap:0.25rem;
     margin-left:3.5vw;
 }
-#row1 img,#row2 img{
+#row1 img,#row2 img,#row3 img{
     width: 26rem;
     height: 17.3125rem;
     gap: 0px;
@@ -107,7 +107,7 @@ body{
     opacity: 0px;
 
 }
-#row1 h4,#row2 h4{
+#row1 h4,#row2 h4,#row3 h4{
     font-family: Gothic A1;
     font-size: 1.25rem;
     font-weight: 400;
@@ -116,7 +116,7 @@ body{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-#row1 p,#row2 p{
+#row1 p,#row2 p,#row3 p{
     font-family: Gothic A1;
     font-size: 1.1rem;
     font-weight: 400;
