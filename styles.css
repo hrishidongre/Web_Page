@@ -94,10 +94,10 @@ body{
 }
 #row1,#row2,#row3{
     display: grid;
-    grid-template-columns: repeat(3,auto);
-    overflow: auto;
-    gap:0.25rem;
-    margin-left:3.5vw;
+    grid-template-columns: repeat(3,21.3125rem);
+    /* overflow: auto; */
+    gap: 9rem;
+    margin-left:4.1vw;
 }
 #row1 img,#row2 img,#row3 img{
     width: 26rem;
