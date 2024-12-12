@@ -25,7 +25,6 @@ body{
 .part1{
     display: flex;
     gap: 2.5vw;
-    
 }
 .header .part1 p{
     font-family: "Gothic A1", sans-serif;
@@ -91,6 +90,7 @@ body{
     margin-left: 3.6vw;
     margin-top: 3vw;
     opacity: 0px;
+
 }
 #row1,#row2,#row3{
     display: grid;
@@ -105,6 +105,8 @@ body{
     gap: 0px;
     border: 0.0625rem 0px 0px 0px;
     opacity: 0px;
+    
+    
 
 }
 #row1 h4,#row2 h4,#row3 h4{
