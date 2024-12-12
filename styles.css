@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Gothic+A1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=BIZ+UDPMincho&family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=BIZ+UDPMincho&family=Gothic+A1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -105,9 +106,6 @@ body{
     gap: 0px;
     border: 0.0625rem 0px 0px 0px;
     opacity: 0px;
-    
-    
-
 }
 #row1 h4,#row2 h4,#row3 h4{
     font-family: Gothic A1;
@@ -127,4 +125,26 @@ body{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color:rgba(0, 0, 0, 0.6); 
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+    gap: 3rem;
+}
+.stay{
+    font-family: "BIZ UDPMincho", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+  
+}
+.main2 input{
+    width: 431px;
+    padding:10px;
+    border-radius: 8px;
 }
