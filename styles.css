@@ -147,7 +147,7 @@ body{
 }
 .main2 input{
     width: 431px;
-    height: 24px;
+    height: 26px;
     padding:10px 8px 9px 8px;
     border-radius: 8px;
     font-family: "Gothic A1", sans-serif;
@@ -161,7 +161,9 @@ body{
    
 }
 .subscribe{
-    display: inline;
+    display: flex;
+    gap: 12px;
+    
     
 }
 .button{
@@ -171,15 +173,10 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    /* text-align: left; */
-    /* text-underline-position: from-font; */
-    /* text-decoration-skip-ink: none; */
     width: 157px;
     height: 48px;
     text-align: center;
-
-    padding: 0.75rem 1.25rem;
-    
+    padding: 0.55rem 1.25rem;
     border-radius: 0.5rem 0.5rem;
     
 
