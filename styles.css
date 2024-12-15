@@ -178,8 +178,44 @@ body{
     text-align: center;
     padding: 0.55rem 1.25rem;
     border-radius: 0.5rem 0.5rem;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 96px 0px 24px 0px;
+    gap: 24px;
+    border: 1px 0px 0px 0px;
+}
+.port{
+    width:291px;
+    height: 32px;
+    gap: 32px;
+    margin-left: 4.1vw;
+    font-family: BIZ UDPMincho;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+
+   
+   
+
+}
+.footer_contact{
+    margin-right: 5vw;
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 12px 24px;
     
 
 
-
+    
+    
 }
