@@ -6,13 +6,12 @@
 *{
     margin: 0;
     padding: 0;
-
-
 }
+
 body{
-    background-color:  #F2F6F5;
-    
+    background-color:  #F2F6F5; 
 }
+
 .header{
     align-items: center;
     /* width: 100%; */
@@ -26,10 +25,13 @@ body{
     box-shadow:0 0.25rem 1.5rem 0 rgba(0, 0, 0, 0.16);
     height: 5.5vh;
 }
+
 .part1{
     display: flex;
     gap: 2.5vw;
 }
+
+
 .header .part1 p{
     font-family: "Gothic A1", sans-serif;
     font-size: 1.1rem;
@@ -38,6 +40,8 @@ body{
     text-align: left;
 
 }
+
+
 .part2 p{
     font-family: "Abyssinica SIL", serif;
     font-size: 2.7rem;
@@ -47,22 +51,23 @@ body{
     text-align: left;
     width: 13rem;
     gap: 0.75rem;
-
-    
-
 }
+
+
 .part2{
     margin-right: 12vw;
 }
+
+
 .contact{
     font-family: "Gothic A1", sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
-    /* text-decoration-skip-ink: none; */
-
 }
+
+
 .main1{
     padding: 6rem 0;
     display: flex;
@@ -70,6 +75,8 @@ body{
     margin-top: 8vw;
     flex-direction: column;
 }
+
+
 .discover{
     font-family: "BIZ UDPMincho", serif;
     font-size: 7.94rem;
@@ -81,6 +88,8 @@ body{
     margin-left: 2vw;
 
 }
+
+
 .image_1{
     width: 87.125rem;
     height: 45.125rem;
@@ -91,6 +100,8 @@ body{
     /* opacity: 0px; */
 
 }
+
+
 #row1,#row2,#row3{
     display: grid;
     grid-template-columns: repeat(3,21.3125rem);
@@ -98,6 +109,8 @@ body{
     gap: 9rem;
     margin-left:4.1vw;
 }
+
+
 #row1 img,#row2 img,#row3 img{
     width: 26rem;
     height: 17.3125rem;
@@ -105,25 +118,27 @@ body{
     border: 0.0625rem 0rem 0rem 0rem;
     opacity: 0px;
 }
+
+
 #row1 h4,#row2 h4,#row3 h4{
     font-family: Gothic A1;
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
-    /* text-underline-position: from-font; */
-    /* text-decoration-skip-ink: none; */
 }
+
+
 #row1 p,#row2 p,#row3 p{
     font-family: Gothic A1;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
-    /* text-underline-position: from-font; */
-    /* text-decoration-skip-ink: none; */
     color:rgba(0, 0, 0, 0.6); 
 }
+
+
 .main2{
     display: flex;
     justify-content: center;
@@ -133,6 +148,8 @@ body{
     padding-bottom: 6rem;
     gap: 3rem;
 }
+
+
 .stay{
     font-family: "BIZ UDPMincho", serif;
     font-size: 2.125rem;
@@ -140,10 +157,9 @@ body{
     line-height: 40px;
     letter-spacing: -0.01em;
     text-align: center;
-
-
-  
 }
+
+
 .main2 input{
     width: 26.93rem;
     height: 26px;
@@ -154,17 +170,13 @@ body{
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
-
-   
-
-   
 }
+
 .subscribe{
     display: flex;
-    gap: 0.75rem;
-    
-    
+    gap: 0.75rem; 
 }
+
 .button{
     background: rgba(25, 51, 45, 1);
     color: rgba(250, 255, 254, 1);
@@ -178,15 +190,17 @@ body{
     padding: 0.55rem 1.25rem;
     border-radius: 0.5rem 0.5rem;
 }
+
 .footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-
     padding: 6rem 0rem 1.5rem 0rem;
     gap: 1.5rem;
     border: 0.0625rem;
 }
+
+
 .port{
     width:18.1875rem;
     height: 2rem;
@@ -200,6 +214,8 @@ body{
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
 }
+
+
 .footer_contact{
     margin-right: 5vw;
     font-family: Roboto Mono;
@@ -209,10 +225,15 @@ body{
     border-radius: 0.5rem;
     padding: 0.75rem 1.5rem;
 }
+
+
 .social{
     display: flex;
     gap: 2rem; 
 }
+
+
+
 .facebook,.insta,.meta{
     width: 2.5rem;
     height: 2.5rem;
