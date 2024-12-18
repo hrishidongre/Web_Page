@@ -71,5 +71,75 @@ header h1 {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+.contact h3{
+    margin-top: 96px;
+    text-align: center;
+    font-family: BIZ UDPMincho;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0;
+    gap: 12px;
+}
+.subscribe input{
+    padding: 12px;
+    width: 431px;
+    font-family: Gothic A1;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 8px;
+}
+.subscribe button{
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background: rgba(25, 51, 45, 1);
+    color: rgba(250, 255, 254, 1);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+footer{
+    display: flex;
+    padding: 96px 48px 24px 48px;
+    justify-content: space-between;
+}
+footer h3{
+    font-family: BIZ UDPMincho;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+footer button{
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 1)
+
+
 
 }
