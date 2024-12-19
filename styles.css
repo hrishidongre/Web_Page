@@ -34,6 +34,7 @@ nav p {
 }
 .socialLinks p:hover{
     background-color:rgb(176,179,179) ;
+    cursor: pointer;
 }
 nav h1 {
     font-family: Abyssinica SIL;
@@ -166,6 +167,7 @@ footer button{
 
 footer button:hover{
     background-color: rgb(178, 183, 182);
+    cursor: pointer;
 }
 @media (max-width: 1000px) {
     nav{
